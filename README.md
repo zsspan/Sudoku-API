@@ -9,12 +9,12 @@ example .txt files for where you can output your Sudoku.
 
 To use the API, there is a provided header file, "sudoku.h" that takes implementations from the corresponding "sudoku.c" file.
 The files are already linked and you can use the "sudoku.h" file and the "sudoku.o" file. There is a provided driver file
-"main.c" that demonstrates the use of the API. To link the API with your program, use the following command:
+"example_usage.c" that demonstrates the use of the API. To link the API with your program, use the following command:
 
 ```
 gcc main.c sudoku.o -o your_title
 ```
-Then simply run your_title with any terminal
+Then simply run 'your_title' with any terminal
 
 ## Features
 
